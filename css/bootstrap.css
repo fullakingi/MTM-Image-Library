@@ -3127,6 +3127,7 @@ fieldset[disabled] .btn-default.active {
   color: #fff;
   background-color: #97CE68;
   border-radius: 0px 3px 3px 0px;
+    width: 100%;
 }
 .btn-primary:focus,
 .btn-primary.focus {
@@ -6862,8 +6863,10 @@ button.close {
 .mtmbg {
     background-color: #F2F2EC;
 }
-
-
+.gut {
+    padding-right: 0px;
+    padding-left: 0px;
+}
 .mtmlogo {
     width: 199px;
     height: 59px;
@@ -6881,6 +6884,15 @@ button.close {
     line-height: 1.1em; 
     color: #999999;
 }
+
+.smally a {
+  color: #78B148;
+}
+.smally a:active,
+.smally a:hover {
+  color: #FF6765;
+}
+
 @media (max-width: 991px) {
     .smally {
         padding-top: 10px;
