@@ -6873,6 +6873,9 @@ button.close {
 .tab {
     width: 100%;
 }
+.tabdrop {
+    width: 60%;
+}
 .smally {
   font-size: 10px;
     line-height: 1.1em; 
