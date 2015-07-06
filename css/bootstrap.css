@@ -6854,7 +6854,13 @@ button.close {
   border-top: 1px solid #eee;
 }
 
-/* MTM Logo: */
+/* CUSTOM: */
+
+.thirty {
+    margin-top: 30px;
+}
+
+
 .mtmlogo {
     width: 199px;
     height: 59px;
