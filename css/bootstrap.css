@@ -3061,6 +3061,8 @@ fieldset[disabled] a.btn {
   color: #333;
   background-color: #fff;
   border-color: #ccc;
+    width: 100%;
+
 }
 .btn-default:focus,
 .btn-default.focus {
@@ -6892,11 +6894,18 @@ button.close {
 .smally a:hover {
   color: #FF6765;
 }
-
+.gutr {
+        padding-left: 15px;
+        padding-right: 15px;
+}
+.vmiddle {
+    padding-top: 13px
+}
 @media (max-width: 991px) {
     .smally {
         padding-top: 10px;
         padding-left: 30px;
         padding-right: 20px;
-    {
+    }
+}    
 }
