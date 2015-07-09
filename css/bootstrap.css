@@ -6885,9 +6885,10 @@ button.close {
     margin-right: 30px;
     }
 }
-@media (max-width: 768px) {
+@media (max-width: 767px) {
     .download-bar {
-    padding-left: 2px;
+    width: 100%;
+        margin-bottom: 15px;
     }
 }
 
@@ -6908,6 +6909,16 @@ button.close {
 }
 .vmiddle {
     padding-top: 9px
+}
+@media (max-width: 991px) {
+    .vmiddle {
+    letter-spacing: 0.1px;
+    }
+}
+@media (max-width: 477px) {
+    .vmiddle {
+    display:none;
+    }
 }
 file-type {
     font-size: 10px;
