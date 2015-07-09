@@ -45,7 +45,7 @@
         <div class="row">
             <div class="col-xs-4"><img class="mtmlogo" src="logos/mtm_blue.svg"></div>
             <div class="col-xs-4"></div>
-            <div class="col-xs-4 thirty"><p class="pull-right">Log out  <img src="img/avatar.png"></p></div>
+            <div class="col-xs-4 thirty"><a href="" class="logout pull-right">Log out  <img src="img/avatar.png"></a></div>
         </div>
         <nav>
           <ul class="nav nav-justified hidden-xs">
@@ -73,14 +73,14 @@
 
       <!-- Jumbotron -->
       <div class="jumbotron"> 
-        <div class="row">   
+        <div class="row pad15">   
             <div class="col-md-6 text-right">
                   <div class="row gutr">
                         <div class="col-xs-9 gut">
                             <input type="text" class="form-control" placeholder="Search (e.g. snorkelling)">
                         </div> 
                         <div class="col-xs-3 gut">
-                            <button type="submit" class="btn btn-primary"><span class="glyphicon glyphicon-search" aria-hidden="true"></span>SEARCH</button>
+                            <button type="submit" class="btn btn-primary"><span class="glyphicon glyphicon-search hidden-xs" aria-hidden="true"></span>SEARCH</button>
                         </div>
                     </div>
             </div>   
@@ -91,8 +91,8 @@
             <div class="row text-center">
                 <hr>
                 <div class="col-xs-3"></div>
-                <div class="col-xs-3 text-right gut"><h4>Snorkelling</h4></div>
-                <div class="col-xs-3 text-left vmiddle gut"><small>123 results</small></div>
+                <div class="col-xs-3 text-right">Snorkelling</div>
+                <div class="col-xs-3 text-left gut"><small>182 results</small></div>
                 <div class="col-xs-3"></div>
                 
             </div>
@@ -100,25 +100,49 @@
 
       <!-- Image layout -->
       <div class="container-fluid mtmbg">
-      <div class="row thirty">
-        <div class="col-sm-4">
-          <p><img class="img-responsive" src="img/BLC_Cabin_Twin.jpg"></p>
-          <p><a class="btn btn-default" href="#" role="button">DOWNLOAD  LOW.JPG  MED.JPG HI.TIFF</a></p>
-        </div>
-        <div class="col-sm-4"> 
-          <p><img class="img-responsive" src="img/SSC_Seaspray_Sailing_Adventure_Kava_Ceremony.jpg"></p>
-          <p><a class="btn btn-default" href="#" role="button">DOWNLOAD  LOW.JPG  MED.JPG HI.TIFF</a></p>
-       </div>
-        <div class="col-sm-4">
-          <p><img class="img-responsive" src="img/CW_Great_Barrier_Reef_Adventures_Day_Cruise_Reefworld_Dive_Lesson_Certified_Intro.jpg"></p>
-          <p><a class="btn btn-default" href="#" role="button">DOWNLOAD  LOW.JPG  MED.JPG HI.TIFF</a></p>
-        </div>
-      </div>
-        </div>  
+          <div class="row ">
+                <div class="col-sm-4"> 
+                  <img class="img-responsive" src="img/SSC_Seaspray_Sailing_Adventure_Kava_Ceremony.jpg">
+                  <div class="row download-bar gut">
+                        <div class="col-xs-5 vmiddle">DOWNLOAD</div>
+                        <div class="col-xs-2"><a class="low" href="#">Low<br></a><file-type>.JPG</file-type>
+                        </div>
+                        <div class="col-xs-2"><a class="med" href="#" role="button">Med<br></a><file-type>.JPG</file-type>
+                        </div>
+                        <div class="col-xs-2"><a class="high" href="#" role="button">High<br></a><file-type>.TIFF</file-type>
+                        </div>
+                    </div>
+               </div>
+                <div class="col-sm-4">
+                  <img class="img-responsive" src="img/CW_Great_Barrier_Reef_Adventures_Day_Cruise_Reefworld_Dive_Lesson_Certified_Intro.jpg">
+                  <div class="row download-bar gut">
+                        <div class="col-xs-5 vmiddle">DOWNLOAD</div>
+                        <div class="col-xs-2"><a class="low" href="#">Low<br></a><file-type>.JPG</file-type>
+                        </div>
+                        <div class="col-xs-2"><a class="med" href="#" role="button">Med<br></a><file-type>.JPG</file-type>
+                        </div>
+                        <div class="col-xs-2"><a class="high" href="#" role="button">High<br></a><file-type>.TIFF</file-type>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-4">
+                  <img class="img-responsive" src="img/BLC_Cabin_Twin.jpg">
+                    <div class="row download-bar gut">
+                        <div class="col-xs-5 vmiddle">DOWNLOAD</div>
+                        <div class="col-xs-2"><a class="low" href="#">Low<br></a><file-type>.JPG</file-type>
+                        </div>
+                        <div class="col-xs-2"><a class="med" href="#" role="button">Med<br></a><file-type>.JPG</file-type>
+                        </div>
+                        <div class="col-xs-2"><a class="high" href="#" role="button">High<br></a><file-type>.TIFF</file-type>
+                        </div>
+                    </div>
+                </div>
+          </div>
+       </div>  
 
       <!-- Site footer -->
       <footer class="footer">
-        <p>&copy; Marine Tourism Management 2015</p>
+        <small>&copy; Marine Tourism Management 2015. All Rights Reserved. Contact</small>
       </footer>
 
     </div> <!-- /container -->
