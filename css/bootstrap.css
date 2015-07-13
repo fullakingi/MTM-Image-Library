@@ -215,7 +215,7 @@ th {
   pre,
   blockquote {
     border: 1px solid #999;
-      border-radius: 0 0 2px 2px;
+      border-radius: 2px;
       page-break-inside: avoid;
   }
   thead {
@@ -1123,7 +1123,7 @@ img {
 .carousel-inner > .item > img,
 .carousel-inner > .item > a > img {
   display: block;
-  max-width: 100%;
+  width: 100%;
   height: auto;
 }
 .img-rounded {
@@ -1568,7 +1568,7 @@ pre {
   word-break: break-all;
   word-wrap: break-word;
   background-color: #fff;
-  border-radius: 0 0 2px 2px;
+  border-radius: 2px;
 }
 pre code {
   padding: 0;
@@ -6880,14 +6880,7 @@ button.close {
     height: 48px;
     border-radius: 0 0 2px 2px;
 }
-@media (min-width: 1199px) {
-    .download-bar {
-    margin-right: 30px;
-    }
-    .embed-responsive {
-        margin-right:30px;
-    }
-}
+
 @media (max-width: 767px) {
     .download-bar {
     width: 100%;
@@ -6950,6 +6943,11 @@ file-type {
     font-size: 11px;
     color: inherit;
 }
+.image-download {
+    width: 100%;
+    height: 200px;
+    background-color: #ddd;
+}
 .tab {
     width: 130%;
     margin-left: -19px;
@@ -6976,4 +6974,27 @@ file-type {
         padding-right: 20px;
     }
 }    
+}
+@media (min-width: 1199px) {
+    .download-bar {
+    margin-right: 30px;
+    }
+    .embed-responsive {
+        margin-right:30px;
+    }
+    .embed-code-panel {
+        margin-right:15px;
+    }
+    .image-download {
+        margin-right:15px;
+    }
+}
+/*Author: Kosmom.ru*/.loading,.loading>td,.loading>th,.nav li.loading.active>a,.pagination li.loading,.pagination>li.active.loading>a,.pager>li.loading>a{
+    background-image: linear-gradient(45deg, rgba(255, 255, 255, 0.15) 25%, rgba(0, 0, 0, 0) 25%, rgba(0, 0, 0, 0) 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, rgba(0, 0, 0, 0) 75%, rgba(0, 0, 0, 0));
+    background-size: 40px 40px;
+animation: 2s linear 0s normal none infinite progress-bar-stripes;
+-webkit-animation: progress-bar-stripes 2s linear infinite;
+}
+.btn.btn-default.loading,input[type="text"].loading,select.loading,textarea.loading,.well.loading,.list-group-item.loading,.pagination>li.active.loading>a,.pager>li.loading>a{
+background-image: linear-gradient(45deg, rgba(235, 235, 235, 0.15) 25%, rgba(0, 0, 0, 0) 25%, rgba(0, 0, 0, 0) 50%, rgba(235, 235, 235, 0.15) 50%, rgba(235, 235, 235, 0.15) 75%, rgba(0, 0, 0, 0) 75%, rgba(0, 0, 0, 0));
 }
